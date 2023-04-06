@@ -15,10 +15,18 @@ function App() {
         <p>Faça o seu cadastro para ter acesso a todos os recursos da nossa plataforma</p>
       </header>
       <div>
-            <form>
+            <form >
                 {/*aqui vai a regra para exibir o componente do passo atual*/}
                 <div>
                   {componenteAtual}
+                </div>
+                <div>
+                  {!passoAtual == 0 && <button type='button' onClick={(e) => mudarPasso(passoAtual - 1, e)}>Enviar</button>}
+                  {ehUltimoPasso ? (
+                    <button type='submit'>Enviar</button>
+                    ) : (
+                      <button type='submit'>Avançar</button>
+                  )}
                 </div>
             </form>
       </div>
