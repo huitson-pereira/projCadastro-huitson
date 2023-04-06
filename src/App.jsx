@@ -10,8 +10,14 @@ function App() {
   
   return (
     <div className="App">
-      {/*<DadosPessoaisForm></DadosPessoaisForm>*/}
-      <Agradecimento></Agradecimento>
+      <div>
+            <form>
+                {/*aqui vai a regra para exibir o componente do passo atual*/}
+                <div>
+                  {componenteAtual}
+                </div>
+            </form>
+      </div>
     </div>
   )
 }
