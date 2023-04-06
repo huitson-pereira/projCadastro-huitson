@@ -1,3 +1,4 @@
+import Agradecimento from './components/Agradecimento'
 import DadosPessoaisForm from './components/DadosPessoaisForm'
 
 
@@ -5,7 +6,8 @@ function App() {
   
   return (
     <div className="App">
-      <DadosPessoaisForm></DadosPessoaisForm>
+      {/*<DadosPessoaisForm></DadosPessoaisForm>*/}
+      <Agradecimento></Agradecimento>
     </div>
   )
 }
