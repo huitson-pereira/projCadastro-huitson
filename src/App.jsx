@@ -1,6 +1,7 @@
 import Agradecimento from './components/Agradecimento'
 import DadosPessoaisForm from './components/DadosPessoaisForm'
 import Endereco from './components/Endereco'
+import Passos from './components/Passos'
 import { useForm } from './components/hooks/useForms'
 
 
@@ -17,6 +18,7 @@ function App() {
       <div>
             <form >
                 {/*aqui vai a regra para exibir o componente do passo atual*/}
+                <Passos passoAtual={passoAtual}/>
                 <div>
                   {componenteAtual}
                 </div>
