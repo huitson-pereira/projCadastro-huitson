@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SCButton = styled.button`
-    font-size: 0.9em;
+    font-size: 1em;
     padding: 0.5em;
     border-radius: 10px;
     border: none;
@@ -12,7 +12,7 @@ export const SCFormContainer = styled.div`
     max-width: 600px;
     height: auto; 
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #F5FFFA;
     padding: 1.5rem;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 

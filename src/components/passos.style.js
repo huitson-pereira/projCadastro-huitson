@@ -8,6 +8,6 @@ export const SCPassosContainer = styled.div`
 `;
 
 export const SCPasso = styled.span`
-    color: ${props => `{props.passoAtivo ? '#c71d81' : '#868584'}`};
-    font-weight: ${props => `{props.passoAtivo ? 'bold' : 'regular'}`};
+    color: ${props => `${props.passoAtivo ? 'green' : 'red'}`};
+    font-weight: ${props => `${props.passoAtivo ? 'bold' : 'regular'}`};
 `;
